@@ -1,0 +1,33 @@
+# Ignorar configuraciones específicas del IDE
+.idea/
+
+# Archivos de entorno virtual
+venv/
+.env
+*.env
+
+# Archivos de configuración de Airflow
+airflow.cfg
+unittests.cfg
+webserver_config.py
+
+# Directorios generados por Airflow
+logs/
+dags/__pycache__/
+plugins/__pycache__/
+
+# Archivos compilados de Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Bases de datos locales
+airflow.db
+*.db
+*.sqlite
+
+# Otros archivos temporales y de sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
